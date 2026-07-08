@@ -112,6 +112,11 @@
           <a href="index.html" class="nav-link text-carbon-link hover:text-carbon-link-hover transition-colors font-medium">Home</a>
           <a href="install.html" class="nav-link text-carbon-text-secondary hover:text-carbon-link transition-colors">Install</a>
           <a href="features.html" class="nav-link text-carbon-text-secondary hover:text-carbon-link transition-colors">Features</a>
+
+          <a href="manual.html" class="nav-link text-carbon-text-secondary hover:text-carbon-link transition-colors">Manual Install</a>
+          
+          <a href="https://bob.ibm.com/" class="nav-link text-carbon-text-secondary hover:text-carbon-link transition-colors" target="_blank" rel="noopener noreferrer">IBM Bob</a>
+
           <a href="https://github.com/ibm-mas/maf-local-dev-mode" class="nav-link text-carbon-text-secondary hover:text-carbon-link transition-colors" target="_blank" rel="noopener noreferrer">GitHub</a>
         </nav>
         
@@ -125,6 +130,7 @@
         <a href="index.html" class="nav-link px-4 py-3 rounded-lg text-carbon-link bg-carbon-layer font-medium">Home</a>
         <a href="install.html" class="nav-link px-4 py-3 rounded-lg text-carbon-text-secondary hover:bg-carbon-layer hover:text-carbon-link transition-colors">Install</a>
         <a href="features.html" class="nav-link px-4 py-3 rounded-lg text-carbon-text-secondary hover:bg-carbon-layer hover:text-carbon-link transition-colors">Features</a>
+        <a href="https://bob.ibm.com/" class="nav-link text-carbon-text-secondary hover:text-carbon-link transition-colors" target="_blank" rel="noopener noreferrer">IBM Bob</a>
         <a href="https://github.com/ibm-mas/maf-local-dev-mode" class="nav-link px-4 py-3 rounded-lg text-carbon-text-secondary hover:bg-carbon-layer hover:text-carbon-link transition-colors" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </nav>
@@ -180,6 +186,41 @@
             </div>
           </div>
         </section>
+
+<!-- Prerequisites Section -->
+    <section class="py-20 bg-carbon-layer">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Prerequisites</h2>
+        <p class="text-center text-carbon-text-secondary mb-12 text-lg">
+          Make sure you have these requirements before installing
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div class="card bg-carbon-field rounded p-6 border border-carbon-border-subtle">
+            <h4 class="text-xl font-semibold mb-3">Code Editor</h4>
+            <p class="text-carbon-text-secondary mb-4">
+              IBM Bob IDE or VSCode 1.74.0+<br>
+              <a href="https://bob.ibm.com/" class="text-carbon-link hover:text-carbon-link-hover transition-colors" target="_blank" rel="noopener noreferrer">Download IBM Bob →</a>
+            </p>
+          </div>
+          
+          <div class="card bg-carbon-field rounded p-6 border border-carbon-border-subtle">
+            <h4 class="text-xl font-semibold mb-3">Node.js</h4>
+            <p class="text-carbon-text-secondary mb-4">
+              Version 20.0.0 or higher<br>
+              <a href="https://nodejs.org/" class="text-carbon-link hover:text-carbon-link-hover transition-colors" target="_blank" rel="noopener noreferrer">Download Node.js →</a>
+            </p>
+          </div>
+          
+          <div class="card bg-carbon-field rounded p-6 border border-carbon-border-subtle">
+            <h4 class="text-xl font-semibold mb-3">Internet Connection</h4>
+            <p class="text-carbon-text-secondary">
+              Required for initial installation and MAS authentication
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
       <div class="container mx-auto px-6">
         <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Quick Installation</h2>
@@ -426,6 +467,17 @@
             </a>
           </div>
                     
+<div class="step text-center">
+            <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-carbon-blue-60 text-carbon-text-on-color text-2xl font-bold mb-6">2</div>
+            <h3 class="text-2xl font-semibold mb-4">Configure your authentication</h3>
+            <p class="text-carbon-text-secondary mb-6">
+             Configure the MAS instances from which the extension will retrieve applications
+            </p>
+<!--             <a href="features.html" class="inline-flex items-center text-carbon-link hover:text-carbon-link-hover transition-colors font-medium">
+              View Features →
+            </a> -->
+          </div>
+
           <div class="step text-center">
             <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-carbon-blue-60 text-carbon-text-on-color text-2xl font-bold mb-6">3</div>
             <h3 class="text-2xl font-semibold mb-4">Start Developing</h3>
@@ -440,40 +492,7 @@
       </div>
     </section>
     
-    <!-- Prerequisites Section -->
-    <section class="py-20 bg-carbon-layer">
-      <div class="container mx-auto px-6">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Prerequisites</h2>
-        <p class="text-center text-carbon-text-secondary mb-12 text-lg">
-          Make sure you have these requirements before installing
-        </p>
-        
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-          <div class="card bg-carbon-field rounded p-6 border border-carbon-border-subtle">
-            <h4 class="text-xl font-semibold mb-3">Code Editor</h4>
-            <p class="text-carbon-text-secondary mb-4">
-              IBM Bob IDE or VSCode 1.74.0+<br>
-              <a href="https://code.visualstudio.com/" class="text-carbon-link hover:text-carbon-link-hover transition-colors" target="_blank" rel="noopener noreferrer">Download VSCode →</a>
-            </p>
-          </div>
-          
-          <div class="card bg-carbon-field rounded p-6 border border-carbon-border-subtle">
-            <h4 class="text-xl font-semibold mb-3">Node.js</h4>
-            <p class="text-carbon-text-secondary mb-4">
-              Version 20.0.0 or higher<br>
-              <a href="https://nodejs.org/" class="text-carbon-link hover:text-carbon-link-hover transition-colors" target="_blank" rel="noopener noreferrer">Download Node.js →</a>
-            </p>
-          </div>
-          
-          <div class="card bg-carbon-field rounded p-6 border border-carbon-border-subtle">
-            <h4 class="text-xl font-semibold mb-3">Internet Connection</h4>
-            <p class="text-carbon-text-secondary">
-              Required for initial installation and MAS authentication
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    
   </main>
   
   <!-- Footer -->
