@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a problem with the Maximo Local Dev Mode extension
+about: Report a problem with the IBM Maximo Application Framework Local Configuration extension
 title: ''
 labels: bug
 assignees: 'sls-ca,smithjor'
@@ -16,8 +16,7 @@ Please search [existing issues](https://github.com/ibm-mas/maf-local-dev-mode/is
 
 Before submitting, please check that your issue is not related to a known limitation:
 
-- **MAS 9.2 Patch 1+ only** — this extension requires MAS 9.2 Patch 1 or later
-- **No MAS 9.1 support** — MAS 9.1 is not supported
+- **Supported versions: MAS 9.1 and MAS 9.2**
 - **Cannot create or clone applications** — use the MAF Tool to clone applications for now
 
 ---

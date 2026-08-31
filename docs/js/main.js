@@ -1,5 +1,5 @@
 /**
- * Main JavaScript for Maximo Application Configuration - Local Dev Mode
+ * Main JavaScript for IBM Maximo Application Framework Local Configuration
  * Handles interactive features, navigation, and copy-to-clipboard
  */
 
@@ -348,7 +348,7 @@
     initScrollAnimations();
     initExternalLinks();
     
-    console.log('Maximo Dev Tools site initialized with Tailwind CSS');
+    console.log('IBM Maximo Application Framework Local Configuration site initialized with Tailwind CSS');
   }
 
   // Start initialization
