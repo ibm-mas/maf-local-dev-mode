@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Maximo Application Configuration - Local Dev Mode
+# IBM Maximo Application Framework Local Configuration
 # Automated Installation Script
 #
 # This script downloads and installs the latest version of the
@@ -63,15 +63,15 @@ print_error() {
 print_header() {
     echo ""
     echo "=================================================="
-    echo "  Maximo Application Configuration"
-    echo "  Local Dev Mode - Installer"
+    echo "  IBM Maximo Application Framework Local Configuration"
+    echo "  Installer"
     echo "=================================================="
     echo ""
 }
 
 # Show help message
 show_help() {
-    echo "Maximo Application Configuration - Local Dev Mode Installer"
+    echo "IBM Maximo Application Framework Local Configuration Installer"
     echo ""
     echo "Usage:"
     echo "  $0 [EDITOR]"

@@ -1,6 +1,6 @@
 # Deployment Guide
 
-This guide covers deploying the Maximo Local Dev Mode documentation site to GitHub Pages.
+This guide covers deploying the IBM Maximo Application Framework Local Configuration documentation site to GitHub Pages.
 
 ## Quick Deployment
 

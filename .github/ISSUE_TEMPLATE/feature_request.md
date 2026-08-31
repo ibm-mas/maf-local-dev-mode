@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest an idea or improvement for the Maximo Local Dev Mode extension
+about: Suggest an idea or improvement for the IBM Maximo Application Framework Local Configuration extension
 title: ''
 labels: enhancement
 assignees: 'sls-ca,smithjor'
@@ -16,8 +16,7 @@ Please search [existing issues](https://github.com/ibm-mas/maf-local-dev-mode/is
 
 Please note these are current known limitations — feature requests related to these are already on our radar:
 
-- **MAS 9.2 Patch 1+ only** — no support for earlier versions
-- **No MAS 9.1 support** — MAS 9.1 is not supported
+- **Supported versions: MAS 9.1 and MAS 9.2**
 - **Cannot create or clone applications** — use the MAF Tool to clone applications for now
 
 ---
