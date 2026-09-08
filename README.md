@@ -6,7 +6,7 @@ A GitHub Pages site for the Maximo Developer Configuration Tools VSCode extensio
 
 ## Current limitations
 
-* Supports MAS 9.1 and MAS 9.2
+* Supports MAS 9.1 and MAS 9.2.1 (and newer)
 
 ## Support
 
