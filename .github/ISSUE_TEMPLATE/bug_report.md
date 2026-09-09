@@ -16,7 +16,7 @@ Please search [existing issues](https://github.com/ibm-mas/maf-local-dev-mode/is
 
 Before submitting, please check that your issue is not related to a known limitation:
 
-- **Supported versions: MAS 9.1 and MAS 9.2.1+**
+- **Supported versions: MAS 9.1.21+ and MAS 9.2.1+**
 - **Cannot create or clone applications** — use the MAF Tool to clone applications for now
 
 ---
