@@ -157,38 +157,16 @@
               View Features →
             </a>
           </div>
-          <div class="mt-6">
-            <button type="button" id="setup-video-toggle" aria-expanded="false" aria-controls="setup-video"
-              class="text-carbon-blue-60 hover:underline font-semibold">
-              View Setup Video
-            </button>
-            <div id="setup-video" class="hidden mt-6 mx-auto max-w-3xl">
-              <div class="relative w-full" style="padding-top: 56.25%;">
-                <iframe class="absolute inset-0 w-full h-full rounded shadow-md"
-                  data-src="https://www.youtube.com/embed/rO2iIncsMdc?enablejsapi=1"
-                  title="MAF Local Dev Mode Setup Video"
-                  frameborder="0" referrerpolicy="strict-origin-when-cross-origin"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-              </div>
+          <div class="mt-10 mx-auto max-w-3xl">
+            <div class="relative w-full" style="padding-top: 56.25%;">
+              <iframe class="absolute inset-0 w-full h-full rounded shadow-md"
+                src="https://www.youtube.com/embed/rO2iIncsMdc?loop=1&playlist=rO2iIncsMdc"
+                title="MAF Local Dev Mode Setup Video"
+                frameborder="0" referrerpolicy="strict-origin-when-cross-origin"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
             </div>
           </div>
-          <script>
-            (function () {
-              var btn = document.getElementById('setup-video-toggle');
-              var box = document.getElementById('setup-video');
-              var frame = box.querySelector('iframe');
-              btn.addEventListener('click', function () {
-                var open = box.classList.toggle('hidden') === false;
-                if (open && !frame.src) frame.src = frame.getAttribute('data-src');
-                if (!open && frame.src) {
-                  frame.contentWindow.postMessage(JSON.stringify({ event: 'command', func: 'pauseVideo', args: [] }), 'https://www.youtube.com');
-                }
-                btn.setAttribute('aria-expanded', open);
-                btn.textContent = open ? 'Hide Setup Video' : 'View Setup Video';
-              });
-            })();
-          </script>
         </div>
       </div>
     </section>
